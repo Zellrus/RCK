@@ -1,11 +1,8 @@
 <template>
 
    <Header></Header>
-
-
-
-
     <router-view></router-view>
+    <Footer></Footer>
 </template>
 
 
@@ -13,6 +10,7 @@
 
 
 import Header from "@/components/Header.vue";
+import Footer from "@/components/Footer.vue"
     export default {
         data(){
             return{
@@ -23,7 +21,8 @@ import Header from "@/components/Header.vue";
             console.log('Component mounted.!!!!')
         },
         components: {
-            Header
+            Header,
+            Footer
         },
     }
 </script>

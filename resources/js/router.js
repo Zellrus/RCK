@@ -42,7 +42,8 @@ const routes = [
                 path: 'offer/create',
                 name: 'offer.create',
                 component: () => import('./components/makeOffer/MakeOfferComponent.vue')
-            }
+            },
+
         ]
     }
 ]

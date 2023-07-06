@@ -15,8 +15,8 @@
           <div class="form-group">
               <label for="exampleFormControlSelect1">Выберите товар</label>
               <select v-model="choiseProduct" class="form-control" id="exampleFormControlSelect1">
-                  <option  v-for="(prod, i) in this.products" :key="i">
-                   {{prod.id}} {{prod.name}}
+                  <option  v-for="prod in this.products">
+                   {{prod.id}} - {{prod.name}}
                   </option>
 
               </select>

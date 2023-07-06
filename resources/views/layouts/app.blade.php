@@ -1,3 +1,9 @@
+@if (auth()->user() !== null)
+    <div class="container">
+        <a class="nav-link" href="{{route('logout')}}">Выйти из режима админа</a>
+        <a class="nav-link" href="{{route('admin.panel')}}">Админ панель</a>
+    </div>
+@endif
 <!doctype html>
 <html style="font-size: 16px;" lang="ru">
 

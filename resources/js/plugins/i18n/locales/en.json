@@ -11,5 +11,11 @@
         "produse":"Produse",
         "makeOffer":"MakeOffer"
 
+    },
+    "products": {
+        "inStock":{
+            "true": "In stock",
+            "false": "Out of stock"
+        }
     }
 }
