@@ -14,6 +14,10 @@ const Trans = {
         this.currentLocale = newLocale
         document.querySelector('html').setAttribute('lang', newLocale)
         localStorage.setItem('user-locale',newLocale)
+        switch (document.querySelector('html').getAttribute('lang')){
+            case 'ru':    document.querySelector('title').innerText="РЦК";break;
+            case 'en':    document.querySelector('title').innerText="RCK";break;
+        }
     },
     getUserLocale() {
         const locale = window.navigator.language ||

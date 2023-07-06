@@ -9,8 +9,10 @@ use Illuminate\Http\Request;
 
 class ShowController extends Controller
 {
-    public function __invoke(Product $product)
+    public function __invoke($data)
     {
+        $product = Product::find($data);
+
         return $product;
     }
 }

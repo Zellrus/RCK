@@ -8,7 +8,7 @@
             </div>
             <div class="row gy-4 gy-md-0">
                 <div class="col-md-6">
-                    <div class="p-xl-5 m-xl-5"><img class="rounded img-fluid d-sm-flex justify-content-sm-center w-100 fit-cover" style="min-height: 300px;background: url(&quot;images/8ad73f3c.jpeg&quot;) center / cover no-repeat;" src="assets/img/8ad73f3c.jpeg"></div>
+                    <div class="p-xl-5 m-xl-5"><img class="rounded img-fluid d-sm-flex justify-content-sm-center w-100 fit-cover" style="min-height: 300px;background: url(&quot;images/8ad73f3c.jpeg&quot;) center / cover no-repeat;" src="images/8ad73f3c.jpeg"></div>
                 </div>
                 <div class="col-md-6 d-sm-flex d-md-flex justify-content-sm-center align-items-md-center">
                     <div style="max-width: 350px;">

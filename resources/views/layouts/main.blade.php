@@ -10,22 +10,16 @@
 
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="btn" aria-current="page" href="{{route('index')}}">Вернуться на сайт RCK</a>
-                    </li>
+<div class="container" style="position: static; width: 100%; display:flex;">
+
+
+            <div class="btn-group" role="group" aria-label="Basic example" style="margin:0px auto">
+                        <a class="btn"  href="{{route('index')}}">Вернуться на сайт RCK</a>
                     @if (auth()->user() !== null)
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{route('logout')}}">Выйти из режима админа</a>
-                    </li>
+                        <a class="btn"  href="{{route('logout')}}">Выйти из режима админа</a>
                     @endif
-                </ul>
             </div>
-        </div>
-    </nav>
+</div>
 <div>
     @yield('content')
 </div>

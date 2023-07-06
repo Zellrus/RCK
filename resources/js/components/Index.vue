@@ -18,7 +18,16 @@ import Footer from "@/components/Footer.vue"
             }
         },
         mounted() {
-            console.log('Component mounted.!!!!')
+            console.log('Component mounted!')
+            this.changeTitleLocale();
+        },
+        methods:{
+          changeTitleLocale(){
+              switch (document.querySelector('html').getAttribute('lang')){
+                  case 'ru':    document.querySelector('title').innerText="РЦК";break; //еще заменить в трансляторе
+                  case 'en':    document.querySelector('title').innerText="RCK";break;
+                }
+              }
         },
         components: {
             Header,
@@ -27,7 +36,6 @@ import Footer from "@/components/Footer.vue"
     }
 </script>
 <style scoped>
-/*@import "@/../css/nicepage.css";*/
 
 
 </style>

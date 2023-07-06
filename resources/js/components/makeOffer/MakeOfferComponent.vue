@@ -1,4 +1,6 @@
 <template>
+
+
   <div class="container">
               <div class="form-group">
                   <label for="nameCompany">Название компании</label>
