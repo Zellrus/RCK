@@ -5,7 +5,7 @@
     <title>RCK</title>
 
 {{--    <script class="u-script" type="text/javascript" src="../test/jquery.js" defer=""></script>--}}
-{{--    <script class="u-script" type="text/javascript" src="../test/nicepage.js" defer=""></script>--}}
+{{-- <script class="u-script" type="text/javascript" src="../../../bootstrap/bs-init.js" ></script>--}}
 @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 
 {{--    <body  class="u-body u-xxl-mode" data-locales="en">--}}
