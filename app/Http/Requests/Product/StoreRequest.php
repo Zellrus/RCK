@@ -25,6 +25,7 @@ class StoreRequest extends FormRequest
             'name'=>'required|string',
             'description'=>'required|string',
             'in_stock'=>'',
+            'image'=>'image',
         ];
     }
 }

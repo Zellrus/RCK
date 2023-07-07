@@ -8,11 +8,10 @@
             <ul class="list-group list-group-flush">
                 <li class="list-group-item"><p>Название продукта: {{this.product.name}}</p></li>
                 <li class="list-group-item"><p>Описание: {{this.product.description}}</p></li>
-
             </ul>
     </div>
     </div>
-
+<router-link class="btn btn-primary"  :to="{name: 'products.index'}">Назад</router-link>
 </div>
 </template>
 

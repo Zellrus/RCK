@@ -1,9 +1,10 @@
 @if (auth()->user() !== null)
     <div class="container" style="position: static; width: 100%; display:flex;">
         <div class="btn-group" role="group" aria-label="Basic example" style="margin:0px auto">
-            <a class="btn"  href="{{route('index')}}">Вернуться на сайт RCK</a>
+            <a class="btn"  href="{{route('admin.panel')}}">Админ панель</a>
             @if (auth()->user() !== null)
                 <a class="btn"  href="{{route('logout')}}">Выйти из режима админа</a>
+
             @endif
         </div>
     </div>

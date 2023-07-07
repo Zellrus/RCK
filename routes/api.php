@@ -18,10 +18,14 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::group(['namespace'=>'\App\Http\Controllers\Product' ,'prefix' => 'product'],function (){
-    Route::get('/', "ProductController");
-    Route::post('/', "StoreController");
+Route::group(['namespace'=>'\App\Http\Controllers\Product' ,'prefix' => 'products'],function (){
+    Route::get('/', "ProductController@api")->name('api.products.index');
     Route::get('/{product}', "ShowController");
-    Route::patch('/{product}', "UpdateController");
-    Route::delete('/{product}', "DeleteController");
+    Route::group(['middleware'=>'auth'],function (){
+//        Route::post('/', function (){
+//            dd(1);
+//        })->name('product.store');
+        Route::patch('/{product}', "UpdateController");
+        Route::delete('/{product}', "DeleteController");
+    });
 });

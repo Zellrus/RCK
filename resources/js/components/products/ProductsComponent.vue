@@ -56,7 +56,7 @@ export default {
             return router
         },
         getProducts(){
-            axios.get("/api/product/")
+            axios.get("/api/products/")
                 .then(res=>{
                     this.products = res.data
                     console.log(this.products)
