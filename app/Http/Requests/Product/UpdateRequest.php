@@ -23,8 +23,9 @@ class UpdateRequest extends FormRequest
     {
         return [
             'name'=>'required|string',
-            'description'=>'required|string',
-            'in_stock'=>'required|integer',
+            'in_stock'=>'',
+            'image'=>'image',
+            'content'=>''
         ];
     }
 }

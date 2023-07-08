@@ -30,8 +30,11 @@ Route::group(["prefix"=>"admin"],function (){
         Route::get('/panel',App\Http\Controllers\Admin\AdminPanelController::class)->name('admin.panel');
         Route::group(['prefix'=>"products"],function (){
             Route::get('/create', function (){return view('admin.product.create');})->name('product.create');
+            Route::get('/{product}/edit', \App\Http\Controllers\Product\EditController::class)->name('product.edit');
             Route::get('/', [App\Http\Controllers\Product\ProductController::class,'index'])->name('products.index');
             Route::post('/', \App\Http\Controllers\Product\StoreController::class)->name('product.store');
+            Route::patch('/{product}', \App\Http\Controllers\Product\UpdateController::class)->name('product.update');
+            Route::delete('/{product}', \App\Http\Controllers\Product\DeleteController::class)->name('product.delete');
         });
     });
 });

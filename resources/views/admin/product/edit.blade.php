@@ -1,29 +1,30 @@
 @extends('layouts.main')
 @section('content')
     <div  class="container">
-        <form action="{{route("product.store")}}" enctype="multipart/form-data" method="POST">
+        <form action="{{route("product.update",$product->id)}}" enctype="multipart/form-data" method="POST">
             @csrf
+            @method('patch')
             <div class="form-group ">
                 <label for="name">Название продукта:</label>
-                <input value ="{{old('name')}}" required type="name" class="form-control" id="name" placeholder="Введите название продукта" name ="name">
+                <input value ="{{$product->name}}" required type="name" class="form-control" id="name"  placeholder="Введите название продукта" name ="name">
                 @error('title')
                 <p class="text-danger">Заполните поле!</p>
                 @enderror
             </div>
             <div class="form-check form-switch" style="margin: 10px">
-                <input class="form-check-input" type="checkbox" id="in_stock" name = "in_stock">
+                <input class="form-check-input" type="checkbox" id="in_stock" name = "in_stock" {{$product->in_stock == 1 ? "checked" : ''}}>
                 <label class="form-check-label" for="in_stock">На складе</label>
             </div>
 
             <div class="form-group">
                 <label for="image">Обложка:</label>
-                <input required value ="{{old('image')}}" type="file" class="form-control" id="image" placeholder="Изображение" name="image" accept=".jpg, .jpeg, .png, .gif,">
+                <input  type="file" class="form-control" id="image" placeholder="Изображение" name="image" accept=".jpg, .jpeg, .png, .gif,">
             </div>
 
 
             <section class="post-create" style="width: 100%; height: 100px; margin: 40px auto;">
                 <label for="summernote">Контент:</label>
-                <textarea id="summernote" name="content">{{old('content')}}</textarea>
+                <textarea id="summernote" name="content">{{$content}}</textarea>
                 {{--    <button onclick="PasteCode()" class="btn btn-primary"> Change Style </button>--}}
 
 
@@ -45,7 +46,7 @@
 
                 </script>
                 <a class="btn btn-dark"  href="{{route("products.index")}}">Назад</a>
-                <button type="submit" class="btn btn-primary">Добавить</button>
+                <button type="submit" class="btn btn-primary">Изменить</button>
             </section>
         </form>
     </div>

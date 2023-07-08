@@ -14,9 +14,9 @@ return new class extends Migration
         Schema::create('products', function (Blueprint $table) {
             $table->id();
             $table->string("name");
-            $table->boolean("in_stock")->default(true);
-            $table->string("description",2000);
-            $table->string("image")->nullable();
+            $table->boolean("in_stock")->default(false);
+            $table->string("content");
+            $table->string("image");
             $table->timestamps();
         });
     }

@@ -8,13 +8,18 @@
             <div class="row justify-content-end">
                 @foreach ($products as $product)
                     <li class="list-group-item">
-                        <img src="{{$product->image}}" class="rounded float-start" style="width: 300px"  alt="...">
+                        <img src="{{$product->image}}" class="rounded float-start" style="width: 300px; height: 300px;"  alt="...">
 
                         <h6 class = "fw-bold"> № {{$product->id}}. {{$product->name}}</h6>
 {{--                        <p>{{$post->description}}</p>--}}
+                        <a class ="btn btn-dark" href ="{{route("product.edit", $product->id)}}">Изменить</a>
 
                         <div class="col-4">
-{{--                            <a class ="btn btn-dark" href ="{{route("product.show", $product->id)}}">Изменить</a>--}}
+                            <form action="{{route("product.delete",$product->id)}}" method="POST" style="display: inline">
+                                @csrf
+                                @method("delete")
+                                <input type="submit" class="btn btn-danger" value="Удалить">
+                            </form>
                         </div>
                     </li>
                 @endforeach

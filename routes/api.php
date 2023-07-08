@@ -22,10 +22,11 @@ Route::group(['namespace'=>'\App\Http\Controllers\Product' ,'prefix' => 'product
     Route::get('/', "ProductController@api")->name('api.products.index');
     Route::get('/{product}', "ShowController");
     Route::group(['middleware'=>'auth'],function (){
+
 //        Route::post('/', function (){
 //            dd(1);
 //        })->name('product.store');
-        Route::patch('/{product}', "UpdateController");
-        Route::delete('/{product}', "DeleteController");
+//        Route::patch('/{product}', "UpdateController")->name('product.update');
+       // Route::delete('/{product}', "DeleteController");
     });
 });
