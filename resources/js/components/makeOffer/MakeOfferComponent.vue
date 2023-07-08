@@ -50,7 +50,7 @@ export default {
 
       },
       getProducts(){
-          axios.get("/api/product/")
+          axios.get("/api/products/")
               .then(res=>{
             this.products = res.data
 

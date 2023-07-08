@@ -26,7 +26,7 @@
         </button>
     </div>
 
-    <nav class="navbar navbar-light navbar-expand-md sticky-top">
+    <nav class="navbar navbar-light navbar-expand-md sticky-top" style="background: white;">
 <!--    <nav class="navbar navbar-light navbar-expand-md sticky-top" style="background: linear-gradient(90deg,  gray 60%, white);">-->
         <div class="container-fluid"><img style="width: 80px;" src="/images/logo.jpg"><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse text-center text-sm-center text-md-center text-lg-center text-xl-center text-xxl-center d-xxl-flex justify-content-xxl-center" id="navcol-1" style="text-align: center;width: 1200px;">
@@ -35,7 +35,6 @@
                     <li class="nav-item text-center" style="text-align: center;"><router-link class="nav-link text-center" :to="{name: 'news.index'}" style="text-align: center;">{{ $t("nav.news") }}</router-link></li>
                     <li class="nav-item text-center" style="text-align: center;"><router-link class="nav-link text-center" :to="{name: 'about.index'}" style="text-align: center;">{{ $t("nav.about") }}</router-link></li>
                     <li class="nav-item text-center" style="text-align: center;"><router-link class="nav-link text-center" :to="{name: 'products.index'}" style="text-align: center;">{{ $t("nav.products") }}</router-link></li>
-                    <li class="nav-item text-center" style="text-align: center;"><router-link class="nav-link text-center" :to="{name: 'produse.index'}" style="text-align: center;">{{ $t("nav.produse") }}</router-link></li>
                     <li class="nav-item text-center" style="text-align: center;"><router-link class="nav-link text-center" :to="{name: 'offer.create'}" style="text-align: center;">{{ $t("nav.makeOffer") }}</router-link></li>
 
                 </ul>

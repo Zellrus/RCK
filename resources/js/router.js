@@ -39,11 +39,6 @@ const routes = [
                 component: () => import('./components/products/Product.vue'),
             },
             {
-                path: 'produse',
-                name: 'produse.index',
-                component: () => import('./components/produse/ProduseComponent.vue')
-            },
-            {
                 path: 'offer/create',
                 name: 'offer.create',
                 component: () => import('./components/makeOffer/MakeOfferComponent.vue')
