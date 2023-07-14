@@ -1,133 +1,65 @@
 <template>
-    <section style="margin-top: 40px;margin-bottom: 40px;">
-        <div class="container" style="width: 100%;max-width: none;">
-            <div class="row d-sm-flex justify-content-sm-center" style="margin-top: 5px;margin-bottom: 5px;">
-                <div class="col-sm-9 col-md-6 col-lg-4 col-xl-3 col-xxl-3" style="margin-top: 5px;margin-bottom: 5px;">
-                    <section style="width: 100%;height: auto;position: sticky;background: url(&quot;/images/8ad73f3c.jpeg&quot;) top / cover no-repeat;">
-                        <h2 style="margin-top: 0px;padding-top: 130px;margin-bottom: 20px;padding-right: 5px;padding-left: 5px;"><span style="color: rgb(17, 17, 17);">Sample Headline</span></h2>
-                        <h5 style="margin-top: 45px;margin-bottom: 20px;padding-left: 5px;padding-right: 5px;"><span style="color: rgb(17, 17, 17);">Sample text. Click to select the text box. Click again or double click to start editing the text.</span></h5><button class="btn btn-primary" type="button" style="margin-bottom: 20px;margin-left: 10px;">Button</button>
-                    </section>
+    <section>
+        <section>
+            <div style="height: 600px;background: url(&quot;images/4469af753c6234df2f2a4a71da8504b6e9b76535c57807023d0f6a7b6b1cef25d3bbeefeab778d5b4be4a1f231116198ed525af0eedac8a707bdf3_1280.jpg&quot;) center / cover no-repeat;"></div>
+            <div class="container h-100 position-relative" style="top: -50px;">
+                <div class="row mb-5">
+                    <div class="col-md-8 col-xl-6 text-center mx-auto">
+                        <h2 style="color: rgb(4,190,0);">Heading</h2>
+                        <p>Curae hendrerit donec commodo hendrerit egestas tempus, turpis facilisis nostra nunc. Vestibulum dui eget ultrices.</p>
+                    </div>
                 </div>
-                <div class="col-sm-9 col-md-6 col-lg-4 col-xl-3 col-xxl-3" style="margin-top: 5px;margin-bottom: 5px;">
-                    <section style="width: 100%;height: auto;position: sticky;background: url(&quot;/images/8ad73f3c.jpeg&quot;) top / cover no-repeat;">
-                        <h2 style="margin-top: 0px;padding-top: 130px;margin-bottom: 20px;padding-right: 5px;padding-left: 5px;"><span style="color: rgb(17, 17, 17);">Sample Headline</span></h2>
-                        <h5 style="margin-top: 45px;margin-bottom: 20px;padding-left: 5px;padding-right: 5px;"><span style="color: rgb(17, 17, 17);">Sample text. Click to select the text box. Click again or double click to start editing the text.</span></h5><button class="btn btn-primary" type="button" style="margin-bottom: 20px;margin-left: 10px;">Button</button>
-                    </section>
-                </div>
-                <div class="col-sm-9 col-md-6 col-lg-4 col-xl-3 col-xxl-3" style="margin-top: 5px;margin-bottom: 5px;">
-                    <section style="width: 100%;height: auto;position: sticky;background: url(&quot;/images/8ad73f3c.jpeg&quot;) top / cover no-repeat;">
-                        <h2 style="margin-top: 0px;padding-top: 130px;margin-bottom: 20px;padding-right: 5px;padding-left: 5px;"><span style="color: rgb(17, 17, 17);">Sample Headline</span></h2>
-                        <h5 style="margin-top: 45px;margin-bottom: 20px;padding-left: 5px;padding-right: 5px;"><span style="color: rgb(17, 17, 17);">Sample text. Click to select the text box. Click again or double click to start editing the text.</span></h5><button class="btn btn-primary" type="button" style="margin-bottom: 20px;margin-left: 10px;">Button</button>
-                    </section>
-                </div>
-                <div class="col-sm-9 col-md-6 col-lg-4 col-xl-3 col-xxl-3" style="margin-top: 5px;margin-bottom: 5px;">
-                    <section style="width: 100%;height: auto;position: sticky;background: url(&quot;/images/8ad73f3c.jpeg&quot;) top / cover no-repeat;">
-                        <h2 style="margin-top: 0px;padding-top: 130px;margin-bottom: 20px;padding-right: 5px;padding-left: 5px;"><span style="color: rgb(17, 17, 17);">Sample Headline</span></h2>
-                        <h5 style="margin-top: 45px;margin-bottom: 20px;padding-left: 5px;padding-right: 5px;"><span style="color: rgb(17, 17, 17);">Sample text. Click to select the text box. Click again or double click to start editing the text.</span></h5><button class="btn btn-primary" type="button" style="margin-bottom: 20px;margin-left: 10px;">Button</button>
-                    </section>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section style="width: 100%;">
-        <div class="container">
-            <div class="row d-xxl-flex justify-content-xxl-center">
-                <div class="col-xxl-7 d-xxl-flex justify-content-xxl-center">
-                    <div class="accordion" role="tablist" id="accordion-1" style="font-size: 22px;width: 100%;">
-                        <div class="accordion-item" style="font-size: 22px;">
-                            <h2 class="accordion-header" role="tab"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-1" aria-expanded="true" aria-controls="accordion-1 .item-1" style="font-size: 22px;">Accordion Item</button></h2>
-                            <div class="accordion-collapse collapse show item-1" role="tabpanel" data-bs-parent="#accordion-1">
-                                <div class="accordion-body">
-                                    <p class="mb-0">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
-                                </div>
+                <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3 d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center">
+                    <div class="col-xxl-3">
+                        <div class="card">
+                            <div class="card-body p-4">
+                                <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center d-inline-block mb-3 bs-icon" style="background: rgb(0,0,0);margin: 0px auto;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-coin" style="color: rgb(62,208,26);">
+                                    <path d="M5.5 9.511c.076.954.83 1.697 2.182 1.785V12h.6v-.709c1.4-.098 2.218-.846 2.218-1.932 0-.987-.626-1.496-1.745-1.76l-.473-.112V5.57c.6.068.982.396 1.074.85h1.052c-.076-.919-.864-1.638-2.126-1.716V4h-.6v.719c-1.195.117-2.01.836-2.01 1.853 0 .9.606 1.472 1.613 1.707l.397.098v2.034c-.615-.093-1.022-.43-1.114-.9H5.5zm2.177-2.166c-.59-.137-.91-.416-.91-.836 0-.47.345-.822.915-.925v1.76h-.005zm.692 1.193c.717.166 1.048.435 1.048.91 0 .542-.412.914-1.135.982V8.518l.087.02z"></path>
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path>
+                                    <path d="M8 13.5a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11zm0 .5A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"></path>
+                                </svg></div>
+                                <h4 class="text-center card-title">Title</h4>
+                                <p class="text-center card-text">Erat netus est hendrerit, nullam et quis ad cras porttitor iaculis. Bibendum vulputate cras aenean.</p>
                             </div>
                         </div>
-                        <div class="accordion-item" style="font-size: 22px;">
-                            <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-2" aria-expanded="false" aria-controls="accordion-1 .item-2" style="font-size: 22px;">Accordion Item</button></h2>
-                            <div class="accordion-collapse collapse item-2" role="tabpanel" data-bs-parent="#accordion-1">
-                                <div class="accordion-body">
-                                    <ul style="width: auto;">
-                                        <li>Item 1</li>
-                                        <li>Item 2</li>
-                                        <li>Item 3</li>
-                                        <li>Item 4</li>
-                                    </ul>
-                                </div>
+                    </div>
+                    <div class="col-xxl-3">
+                        <div class="card">
+                            <div class="card-body p-4">
+                                <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center d-inline-block mb-3 bs-icon" style="background: rgb(0,0,0);margin: 0px auto;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-bezier" style="color: rgb(62,208,26);">
+                                    <path fill-rule="evenodd" d="M0 10.5A1.5 1.5 0 0 1 1.5 9h1A1.5 1.5 0 0 1 4 10.5v1A1.5 1.5 0 0 1 2.5 13h-1A1.5 1.5 0 0 1 0 11.5v-1zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zm10.5.5A1.5 1.5 0 0 1 13.5 9h1a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1-1.5 1.5h-1a1.5 1.5 0 0 1-1.5-1.5v-1zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zM6 4.5A1.5 1.5 0 0 1 7.5 3h1A1.5 1.5 0 0 1 10 4.5v1A1.5 1.5 0 0 1 8.5 7h-1A1.5 1.5 0 0 1 6 5.5v-1zM7.5 4a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1z"></path>
+                                    <path d="M6 4.5H1.866a1 1 0 1 0 0 1h2.668A6.517 6.517 0 0 0 1.814 9H2.5c.123 0 .244.015.358.043a5.517 5.517 0 0 1 3.185-3.185A1.503 1.503 0 0 1 6 5.5v-1zm3.957 1.358A1.5 1.5 0 0 0 10 5.5v-1h4.134a1 1 0 1 1 0 1h-2.668a6.517 6.517 0 0 1 2.72 3.5H13.5c-.123 0-.243.015-.358.043a5.517 5.517 0 0 0-3.185-3.185z"></path>
+                                </svg></div>
+                                <h4 class="text-center card-title">Title</h4>
+                                <p class="text-center card-text">Erat netus est hendrerit, nullam et quis ad cras porttitor iaculis. Bibendum vulputate cras aenean.</p>
                             </div>
                         </div>
-                        <div class="accordion-item" style="font-size: 22px;">
-                            <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-3" aria-expanded="false" aria-controls="accordion-1 .item-3" style="font-size: 22px;">Accordion Item</button></h2>
-                            <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-1">
-                                <div class="accordion-body">
-                                    <p class="mb-0">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
-                                </div>
+                    </div>
+                    <div class="col-xxl-3">
+                        <div class="card">
+                            <div class="card-body p-4">
+                                <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center d-inline-block mb-3 bs-icon" style="background: rgb(0,0,0);margin: 0px auto;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-flag" style="border-color: rgb(254,30,30);color: rgb(62,208,26);">
+                                    <path d="M14.778.085A.5.5 0 0 1 15 .5V8a.5.5 0 0 1-.314.464L14.5 8l.186.464-.003.001-.006.003-.023.009a12.435 12.435 0 0 1-.397.15c-.264.095-.631.223-1.047.35-.816.252-1.879.523-2.71.523-.847 0-1.548-.28-2.158-.525l-.028-.01C7.68 8.71 7.14 8.5 6.5 8.5c-.7 0-1.638.23-2.437.477A19.626 19.626 0 0 0 3 9.342V15.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 1 0v.282c.226-.079.496-.17.79-.26C4.606.272 5.67 0 6.5 0c.84 0 1.524.277 2.121.519l.043.018C9.286.788 9.828 1 10.5 1c.7 0 1.638-.23 2.437-.477a19.587 19.587 0 0 0 1.349-.476l.019-.007.004-.002h.001M14 1.221c-.22.078-.48.167-.766.255-.81.252-1.872.523-2.734.523-.886 0-1.592-.286-2.203-.534l-.008-.003C7.662 1.21 7.139 1 6.5 1c-.669 0-1.606.229-2.415.478A21.294 21.294 0 0 0 3 1.845v6.433c.22-.078.48-.167.766-.255C4.576 7.77 5.638 7.5 6.5 7.5c.847 0 1.548.28 2.158.525l.028.01C9.32 8.29 9.86 8.5 10.5 8.5c.668 0 1.606-.229 2.415-.478A21.317 21.317 0 0 0 14 7.655V1.222z"></path>
+                                </svg></div>
+                                <h4 class="text-center card-title">Title</h4>
+                                <p class="text-center card-text">Erat netus est hendrerit, nullam et quis ad cras porttitor iaculis. Bibendum vulputate cras aenean.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-3">
+                        <div class="card">
+                            <div class="card-body p-4">
+                                <div class="bs-icon-md bs-icon-rounded bs-icon-primary text-center d-flex justify-content-center align-items-center d-inline-block mb-3 bs-icon" style="background: rgb(0,0,0);margin: 0px auto;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-flag" style="border-color: rgb(254,30,30);color: rgb(62,208,26);">
+                                    <path d="M14.778.085A.5.5 0 0 1 15 .5V8a.5.5 0 0 1-.314.464L14.5 8l.186.464-.003.001-.006.003-.023.009a12.435 12.435 0 0 1-.397.15c-.264.095-.631.223-1.047.35-.816.252-1.879.523-2.71.523-.847 0-1.548-.28-2.158-.525l-.028-.01C7.68 8.71 7.14 8.5 6.5 8.5c-.7 0-1.638.23-2.437.477A19.626 19.626 0 0 0 3 9.342V15.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 1 0v.282c.226-.079.496-.17.79-.26C4.606.272 5.67 0 6.5 0c.84 0 1.524.277 2.121.519l.043.018C9.286.788 9.828 1 10.5 1c.7 0 1.638-.23 2.437-.477a19.587 19.587 0 0 0 1.349-.476l.019-.007.004-.002h.001M14 1.221c-.22.078-.48.167-.766.255-.81.252-1.872.523-2.734.523-.886 0-1.592-.286-2.203-.534l-.008-.003C7.662 1.21 7.139 1 6.5 1c-.669 0-1.606.229-2.415.478A21.294 21.294 0 0 0 3 1.845v6.433c.22-.078.48-.167.766-.255C4.576 7.77 5.638 7.5 6.5 7.5c.847 0 1.548.28 2.158.525l.028.01C9.32 8.29 9.86 8.5 10.5 8.5c.668 0 1.606-.229 2.415-.478A21.317 21.317 0 0 0 14 7.655V1.222z"></path>
+                                </svg></div>
+                                <h4 class="text-center card-title">Title</h4>
+                                <p class="text-center card-text">Erat netus est hendrerit, nullam et quis ad cras porttitor iaculis. Bibendum vulputate cras aenean.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <section style="width: 100%;height: 600px;margin-top: 20px;margin-bottom: 20px;">
-        <div class="container" style="width: 100%;max-width: none;padding-right: 0px;padding-left: 0px;height: 100%;">
-            <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;height: 100%;">
-                <div class="col" style="width: 100%;padding-right: 0px;padding-left: 0px;height: 100%;">
-                    <section>
-
-                        <div data-bss-parallax-bg="true" style="height: 600px;background: url(&quot;/images/pexels-photo-1105766.jpeg&quot;);">
-                            <div class="container h-100">
-                                <div class="row d-xxl-flex justify-content-xxl-center h-100">
-                                    <div class="col-md-6 col-xxl-12 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xxl-center">
-                                        <div style="max-width: 350px;margin-left: 35px;margin-top: -138px;z-index: 30;background: rgba(0,0,0,0.5);border-radius: 20px;">
-                                            <h1 class="text-uppercase fw-bold"><span style="color: rgb(255, 255, 255);">Biben dum</span><br><span style="color: rgb(255, 255, 255);">fringi dictum, augue purus</span></h1>
-                                            <p class="my-3"><span style="color: rgb(255, 255, 255);">Tincidunt laoreet leo, adipiscing taciti tempor. Primis senectus sapien, risus donec ad fusce augue interdum.</span></p>
-                                        </div>
-                                        <div style="max-width: 350px;width: 350px;height: 350px;margin-left: -219px;padding-top: 0px;margin-top: 71px;background: url(&quot;/images/c20700d80647c1d547ecb7a86e3d128b5867e5a525ef71f676d827eb8177c73b0889c6d18a58b1f9d225d23ffa41e03778d7b87baf9f7adb625b10_1280.jpg&quot;) center / cover no-repeat, rgba(255,255,255,0);opacity: 0.70;border-radius: 20px;"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-                </div>
-            </div>
-        </div>
-    </section>
-    <section style="width: 100%;margin-top: 20px;margin-bottom: 20px;">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h1 class="d-xxl-flex justify-content-xxl-center" style="font-size: 70px;"><strong><span style="color: rgb(17, 17, 17);">It's That Design Feeling</span></strong></h1>
-                </div>
-            </div>
-        </div>
-    </section>
-<!--    <ParallaxImage imageUrl="https://w.forfun.com/fetch/42/429f04f158ff611068a6eba8af8fe776.jpeg?w=1470&r=0.5625" parallaxSpeed="0.5" />-->
-    <section style="width: 100%;height: 600px;margin-top: 20px;margin-bottom: 20px;">
-        <div class="container" style="width: 100%;max-width: none;padding-right: 0px;padding-left: 0px;height: 100%;">
-            <div class="row" style="width: 100%;margin-right: 0px;margin-left: 0px;height: 100%;">
-                <div class="col" style="width: 100%;padding-right: 0px;padding-left: 0px;height: 100%;">
-                    <section>
-                        <div data-bss-parallax-bg="true" style="height: 600px;background: url(&quot;/images/4469af753c6234df2f2a4a71da8504b6e9b76535c57807023d0f6a7b6b1cef25d3bbeefeab778d5b4be4a1f231116198ed525af0eedac8a707bdf3_1280.jpg) center / cover no-repeat;">
-                            <div class="container h-100">
-                                <div class="row d-lg-flex justify-content-lg-center h-100">
-                                    <div class="col-md-6 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-center align-items-md-center justify-content-lg-center justify-content-xl-center"><img class="d-lg-flex justify-content-lg-center" width="100" height="80" style="width: 80%;max-width: 500px;height: 300px;max-height: 300px;background: url(&quot;/images/4469af753c6234df2f2a4a71da8504b6e9b76535c57807023d0f6a7b6b1cef25d3bbeefeab778d5b4be4a1f231116198ed525af0eedac8a707bdf3_1280.jpg&quot;) center / cover no-repeat;">
-                                        <div style="max-width: 350px;"></div>
-                                    </div>
-                                    <div class="col-md-6 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center">
-                                        <div style="max-width: 350px;">
-                                            <h1 class="text-uppercase fw-bold">Biben dum<br>fringi dictum, augue purus</h1>
-                                            <p class="my-3">Tincidunt laoreet leo, adipiscing taciti tempor. Primis senectus sapien, risus donec ad fusce augue interdum.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-            </div>
-        </div>
+        </section>
     </section>
 
 
@@ -156,5 +88,5 @@ export default {
 </script>
 
 <style scoped>
-
+@import 'Footer-Dark-Multi-Column-icons.css';
 </style>

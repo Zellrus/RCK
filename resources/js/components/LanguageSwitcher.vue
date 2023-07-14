@@ -1,12 +1,12 @@
 <template>
 
-    <select @change ='switchLanguage' class="dropdown btn">
+    <select @change ='switchLanguage' class="dropdown btn nav-link">
             <option
                 v-for="sLocale in suppotredLocales"
                 :key = "`localle-${sLocale}`"
                 :value="sLocale"
                 :selected="locale === sLocale"
-                class="dropdown-item" href="#"> {{t(`locale.${sLocale}`)}}</option>
+                class="dropdown-item" style="color: black" href="#"> {{t(`locale.${sLocale}`)}}</option>
 
     </select>
 

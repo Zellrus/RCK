@@ -23,7 +23,7 @@
                     <ul class="list-unstyled">
                         <li><a class="link-light" href="#">Job openings</a></li>
                         <li><a class="link-light" href="#">Employee success</a></li>
-                        <li><a class="link-light" href="#">Benefits</a></li>
+                        <li><a class="link-light" href="#carouselExampleIndicators">Benefits</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3 text-center text-lg-start d-flex flex-column align-items-center order-first align-items-lg-start order-lg-last">

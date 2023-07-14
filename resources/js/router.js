@@ -24,6 +24,11 @@ const routes = [
                 component: () => import('./components/news/NewsComponent.vue')
             },
             {
+                path: 'news/:post',
+                name: 'news.post',
+                component: () => import('./components/news/Post.vue')
+            },
+            {
                 path: 'about',
                 name: 'about.index',
                 component: () => import('./components/about/AboutComponent.vue')
@@ -42,6 +47,11 @@ const routes = [
                 path: 'offer/create',
                 name: 'offer.create',
                 component: () => import('./components/makeOffer/MakeOfferComponent.vue')
+            },
+            {
+                path: 'contacts',
+                name: 'contacts.index',
+                component: () => import('./components/contacts/ContactsComponent.vue')
             },
 
         ]

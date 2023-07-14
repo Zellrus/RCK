@@ -1,7 +1,7 @@
 @extends('layouts.main')
 @section('content')
 <div class="container">
-    <a class="btn btn-dark">Новости</a>
+    <a class="btn btn-dark" href="{{route("posts.index")}}">Новости</a>
     <a class="btn btn-dark" href="{{route('products.index')}}">Продукты</a>
     <button type="button" class="btn btn-primary position-relative">
         Заявки
