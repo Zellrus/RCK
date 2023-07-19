@@ -8,6 +8,7 @@
                         <img class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex d-xxl-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center justify-content-xxl-center" style="margin-top: 10px;margin-bottom: 10px;" :src= "prod.image" width="100%" height="100%">
                         <h4 class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex d-xxl-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center justify-content-xxl-center" style="margin-top: 10px;margin-bottom: 20px;">{{prod.name}}</h4>
                         <h3 class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex d-xxl-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center justify-content-xxl-center " style="margin-top: 10px;margin-bottom: 20px;">{{$t(in_stock(prod.in_stock))}}</h3>
+                        <h6 class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex d-xxl-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center justify-content-xxl-center " style="margin-top: 10px;margin-bottom: 20px;">Категория: {{prod.categoryTitle}}</h6>
                         <router-link class="btn btn-primary d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex d-xxl-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center justify-content-xxl-center" type="button"  :to="{name: 'products.product',params:{product: prod.id}}" style="margin: 0px auto;margin-bottom: 20px;margin-top: 10px;">Подробнее</router-link>
                     </div>
                 </div>
@@ -49,6 +50,7 @@ export default {
     data(){
         return{
             products: {},
+            categories:{},
         }
     },
     methods:{
@@ -58,8 +60,12 @@ export default {
         getProducts(){
             axios.get("/api/products/")
                 .then(res=>{
-                    this.products = res.data
+
+                     this.products = res.data[0];
+                    this.categories = res.data[1];
                     console.log(this.products)
+                    console.log(this.categories)
+
                 })
                 .catch(
                     console.log("Произошла ошибка при отправке запроса.")
@@ -68,6 +74,8 @@ export default {
         in_stock(a){
             return a ? "products.inStock.true" : "products.inStock.false"
         },
+
+
     },
     mounted() {
         this.getProducts()

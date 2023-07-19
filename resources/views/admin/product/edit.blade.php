@@ -20,7 +20,21 @@
                 <label for="image">Обложка:</label>
                 <input  type="file" class="form-control" id="image" placeholder="Изображение" name="image" accept=".jpg, .jpeg, .png, .gif,">
             </div>
+            <label for="category_id">Категория:</label>
+            <select name="category_id" class="form-select" aria-label="Выбор категории">
 
+                @foreach($categories as $category){
+                @if ($product->category !== null)
+                <option
+                    {{$category->id == $product->category->id ? 'selected' : ""}}
+                    value={{$category->id}}>{{$category->title}}</option>
+                }
+                @else
+                    <option value={{$category->id}}>{{$category->title}}</option>
+                @endif
+                @endforeach
+
+            </select>
 
             <section class="post-create" style="width: 100%; height: 100px; margin: 40px auto;">
                 <label for="summernote">Контент:</label>

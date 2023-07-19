@@ -25,7 +25,8 @@ class UpdateRequest extends FormRequest
             'name'=>'required|string',
             'in_stock'=>'',
             'image'=>'image',
-            'content'=>''
+            'content'=>'',
+            'category_id'=>''
         ];
     }
 }

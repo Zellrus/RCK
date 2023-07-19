@@ -1,7 +1,9 @@
 {
     "locale": {
         "en": "English",
-        "ru": "Русский"
+        "ru": "Русский",
+        "uk": "Українська",
+        "ro": "Română"
     },
     "nav": {
         "home": "Home",

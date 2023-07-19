@@ -1,0 +1,24 @@
+{
+    "locale": {
+        "en": "English",
+        "ru": "Русский",
+        "uk": "Українська",
+        "ro": "Română"
+    },
+    "nav": {
+        "home": "Română",
+        "news": "Română",
+        "about": "Română",
+        "products":"Română",
+        "produse":"Română",
+        "makeOffer":"Română",
+        "contacts": "Română"
+
+    },
+    "products": {
+        "inStock":{
+            "true": "In Română",
+            "false": "Out Română stock"
+        }
+    }
+}

@@ -13,7 +13,7 @@
 <html style="font-size: 16px;" lang="ru">
 
 <head>
-
+    {{Hash::make('12345678')}}
     <title>RCK</title>
 {{--    <script class="u-script" type="text/javascript" src="../test/jquery.js" defer=""></script>--}}
 {{-- <script class="u-script" type="text/javascript" src="../../../bootstrap/bs-init.js" ></script>--}}
