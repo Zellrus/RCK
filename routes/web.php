@@ -33,12 +33,12 @@ Route::group(["prefix"=>"admin"],function (){
             Route::get('/create', [\App\Http\Controllers\Product\CreateController::class,'createProduct'])->name('product.create');
             Route::get('/{product}/edit', \App\Http\Controllers\Product\EditController::class)->name('product.edit');
             Route::get('/', [App\Http\Controllers\Product\ProductController::class,'index'])->name('products.index');
-            Route::post('/', \App\Http\Controllers\Product\StoreController::class)->name('product.store');
+            Route::post('/product', \App\Http\Controllers\Product\StoreController::class)->name('product.store');
             Route::patch('/{product}', \App\Http\Controllers\Product\UpdateController::class)->name('product.update');
             Route::delete('/{product}', \App\Http\Controllers\Product\DeleteController::class)->name('product.delete');
 
             Route::get('/category/create', [\App\Http\Controllers\Product\CreateController::class,'createCategory'])->name('product.category.create');
-            Route::post('/', \App\Http\Controllers\Product\Category\StoreController::class)->name('product.category.store');
+            Route::post('/category', \App\Http\Controllers\Product\Category\StoreController::class)->name('product.category.store');
             Route::get('/category/{category}/edit', \App\Http\Controllers\Product\Category\EditController::class)->name('product.category.edit');
             Route::patch('/category/{category}', \App\Http\Controllers\Product\Category\UpdateController::class)->name('product.category.update');
             Route::delete('/category/{category}', \App\Http\Controllers\Product\Category\DeleteController::class)->name('product.category.delete');
@@ -51,6 +51,11 @@ Route::group(["prefix"=>"admin"],function (){
             Route::post('/', \App\Http\Controllers\Post\StoreController::class)->name('post.store');
             Route::patch('/{post}', \App\Http\Controllers\Post\UpdateController::class)->name('post.update');
             Route::delete('/{post}', \App\Http\Controllers\Post\DeleteController::class)->name('post.delete');
+        });
+        Route::group(['prefix'=>"offers"],function (){
+
+            Route::get('/', App\Http\Controllers\Offer\OfferController::class)->name('offers.index');
+            Route::delete('/{offer}', \App\Http\Controllers\Offer\DeleteController::class)->name('offer.delete');
         });
     });
 });

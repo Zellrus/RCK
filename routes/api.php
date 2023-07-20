@@ -26,3 +26,6 @@ Route::group(['namespace'=>'\App\Http\Controllers\Post' ,'prefix' => 'posts'],fu
     Route::get('/', "PostController@api")->name('api.posts.index');
     Route::get('/{post}', "ShowController");
 });
+Route::group(['namespace'=>'\App\Http\Controllers\Offer' ,'prefix' => 'offer'],function (){
+    Route::post('/create', "CreateController")->name('api.offer.create');
+});

@@ -34,7 +34,7 @@
                     <li class="nav-item"><router-link class="nav-link text-center" :to="{name: 'home.index'}" style="text-align: center;">{{ $t("nav.home") }}</router-link></li>
                     <li class="nav-item text-center" style="text-align: center; "><router-link class="nav-link text-center" :to="{name: 'news.index'}" style="text-align: center;">{{ $t("nav.news") }}</router-link></li>
                     <li class="nav-item text-center" style="text-align: center;"><router-link class="nav-link text-center" :to="{name: 'about.index'}" style="text-align: center;">{{ $t("nav.about") }}</router-link></li>
-                    <li class="nav-item text-center" style="text-align: center;"><router-link class="nav-link text-center" :to="{name: 'contacts.index'}" style="text-align: center;">{{ $t("nav.contacts") }}</router-link></li>
+<!--                    <li class="nav-item text-center" style="text-align: center;"><router-link class="nav-link text-center" :to="{name: 'contacts.index'}" style="text-align: center;">{{ $t("nav.contacts") }}</router-link></li>-->
                     <li class="nav-item text-center" style="text-align: center;"><router-link class="nav-link text-center" :to="{name: 'products.index'}" style="text-align: center;">{{ $t("nav.products") }}</router-link></li>
                     <li class="nav-item text-center" style="text-align: center;"><router-link class="nav-link text-center" :to="{name: 'offer.create'}" style="text-align: center;">{{ $t("nav.makeOffer") }}</router-link></li>
 
