@@ -3,34 +3,34 @@
         <div class="container d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-xxl-center" style="max-width: none;width: 100%;">
             <div class="row d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex d-xxl-flex justify-content-center justify-content-sm-center justify-content-xxl-center" style="width: 100%;">
                 <div class="col-10 col-sm-10 col-md-6 col-lg-5 col-xl-5 col-xxl-3 d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex d-xxl-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center justify-content-xxl-center">
-                    <div class="d-flex flex-column"><img class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex d-xxl-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center justify-content-xxl-center align-items-xxl-center" style="margin: 10px auto;margin-top: 10px;margin-bottom: 10px;width: 300px;height: 250px;" src="assets/img/73869759efb2e747eae8bc690c090a5d246a90be578b73829f616effd74322e7f416458507e8bc44f4a3c07c3b614442f82067b69fafee379014ea_1280.jpg" width="100%" height="100%">
+                    <div class="d-flex flex-column"><img class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex d-xxl-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center justify-content-xxl-center align-items-xxl-center" style="margin: 10px auto;margin-top: 10px;margin-bottom: 10px;width: 300px;height: 250px;" src="images/73869759efb2e747eae8bc690c090a5d246a90be578b73829f616effd74322e7f416458507e8bc44f4a3c07c3b614442f82067b69fafee379014ea_1280.jpg" width="100%" height="100%">
                         <h1 class="text-center d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex d-xxl-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center justify-content-xxl-center" style="margin-top: 10px;margin-bottom: 20px;text-align: center;"><br><span style="color: rgb(17, 17, 17);">О предприятии</span></h1>
-                        <button class="btn btn-primary d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex d-xxl-flex justify-content-center mt-auto justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center justify-content-xxl-center align-items-xxl-end" data-bss-hover-animate="jello" type="button" style="margin: 20px auto;margin-bottom: 20px;margin-top: 10px;background: rgba(13,110,253,0);color: rgb(0,0,0);font-weight: bold;border-radius: 3px;border-width: 3px;border-color: rgb(0,0,0);border-bottom-color: var(--bs-red);">Learn more</button>
+                        <a class="btn btn-primary d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex d-xxl-flex justify-content-center mt-auto justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center justify-content-xxl-center align-items-xxl-end" data-bss-hover-animate="jello" href="#about1" type="button" style="margin: 20px auto;margin-bottom: 20px;margin-top: 10px;background: rgba(13,110,253,0);color: rgb(0,0,0);font-weight: bold;border-radius: 3px;border-width: 3px;border-color: rgb(0,0,0);border-bottom-color: var(--bs-red);" >Перейти</a>
                     </div>
                 </div>
                 <div class="col-10 col-sm-10 col-md-6 col-lg-5 col-xl-5 col-xxl-3 d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex d-xxl-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center justify-content-xxl-center">
-                    <div class="d-flex flex-column"><img class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex d-xxl-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center justify-content-xxl-center align-items-xxl-center" style="margin: 10px auto;margin-top: 10px;margin-bottom: 10px;width: 300px;height: 250px;" src="assets/img/73869759efb2e747eae8bc690c090a5d246a90be578b73829f616effd74322e7f416458507e8bc44f4a3c07c3b614442f82067b69fafee379014ea_1280.jpg" width="100%" height="100%">
+                    <div class="d-flex flex-column"><img class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex d-xxl-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center justify-content-xxl-center align-items-xxl-center" style="margin: 10px auto;margin-top: 10px;margin-bottom: 10px;width: 300px;height: 250px;" src="images/73869759efb2e747eae8bc690c090a5d246a90be578b73829f616effd74322e7f416458507e8bc44f4a3c07c3b614442f82067b69fafee379014ea_1280.jpg" width="100%" height="100%">
                         <h1 class="text-center d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex d-xxl-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center justify-content-xxl-center" style="margin-top: 10px;margin-bottom: 20px;text-align: center;"><br><span style="color: rgb(17, 17, 17);">История РЦК</span></h1>
-                      <button class="btn btn-primary d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex d-xxl-flex justify-content-center mt-auto justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center justify-content-xxl-center align-items-xxl-end" data-bss-hover-animate="jello" type="button" style="margin: 20px auto;margin-bottom: 20px;margin-top: 10px;background: rgba(13,110,253,0);color: rgb(0,0,0);font-weight: bold;border-radius: 3px;border-width: 3px;border-color: rgb(0,0,0);border-bottom-color: var(--bs-red);">Learn more</button>
+                      <a class="btn btn-primary d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex d-xxl-flex justify-content-center mt-auto justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center justify-content-xxl-center align-items-xxl-end" data-bss-hover-animate="jello" href="#history"  type="button" style="margin: 20px auto;margin-bottom: 20px;margin-top: 10px;background: rgba(13,110,253,0);color: rgb(0,0,0);font-weight: bold;border-radius: 3px;border-width: 3px;border-color: rgb(0,0,0);border-bottom-color: var(--bs-red);">Перейти</a>
                     </div>
                 </div>
                 <div class="col-10 col-sm-10 col-md-6 col-lg-5 col-xl-5 col-xxl-3 d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex d-xxl-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center justify-content-xxl-center">
                     <div class="d-flex flex-column"><img class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex d-xxl-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center justify-content-xxl-center align-items-xxl-center" style="margin: 10px auto;margin-top: 10px;margin-bottom: 10px;width: 300px;height: 250px;" src="images/73869759efb2e747eae8bc690c090a5d246a90be578b73829f616effd74322e7f416458507e8bc44f4a3c07c3b614442f82067b69fafee379014ea_1280.jpg" width="100%" height="100%">
                         <h1 class="text-center d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex d-xxl-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center justify-content-xxl-center" style="margin-top: 10px;margin-bottom: 20px;text-align: center;"><br><span style="color: rgb(17, 17, 17);">Руководство</span></h1>
-                        <button class="btn btn-primary d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex d-xxl-flex justify-content-center mt-auto justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center justify-content-xxl-center align-items-xxl-end" data-bss-hover-animate="jello" type="button" style="margin: 20px auto;margin-bottom: 20px;margin-top: 10px;background: rgba(13,110,253,0);color: rgb(0,0,0);font-weight: bold;border-radius: 3px;border-width: 3px;border-color: rgb(0,0,0);border-bottom-color: var(--bs-red);">Learn more</button>
+                        <a class="btn btn-primary d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex d-xxl-flex justify-content-center mt-auto justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center justify-content-xxl-center align-items-xxl-end" data-bss-hover-animate="jello" type="button" href="#control" style="margin: 20px auto;margin-bottom: 20px;margin-top: 10px;background: rgba(13,110,253,0);color: rgb(0,0,0);font-weight: bold;border-radius: 3px;border-width: 3px;border-color: rgb(0,0,0);border-bottom-color: var(--bs-red);">Перейти</a>
                     </div>
                 </div>
                 <div class="col-10 col-sm-10 col-md-6 col-lg-5 col-xl-5 col-xxl-3 d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex d-xxl-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center justify-content-xxl-center">
-                    <div class="d-flex flex-column"><img class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex d-xxl-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center justify-content-xxl-center align-items-xxl-center" style="margin: 10px auto;margin-top: 10px;margin-bottom: 10px;width: 300px;height: 250px;" src="assets/img/73869759efb2e747eae8bc690c090a5d246a90be578b73829f616effd74322e7f416458507e8bc44f4a3c07c3b614442f82067b69fafee379014ea_1280.jpg" width="100%" height="100%">
+                    <div class="d-flex flex-column"><img class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex d-xxl-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center justify-content-xxl-center align-items-xxl-center" style="margin: 10px auto;margin-top: 10px;margin-bottom: 10px;width: 300px;height: 250px;" src="images/73869759efb2e747eae8bc690c090a5d246a90be578b73829f616effd74322e7f416458507e8bc44f4a3c07c3b614442f82067b69fafee379014ea_1280.jpg" width="100%" height="100%">
                         <h1 class="text-center d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex d-xxl-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center justify-content-xxl-center" style="margin-top: 10px;margin-bottom: 20px;text-align: center;"><br><span style="color: rgb(17, 17, 17);">Награды</span></h1>
-                        <a class="btn btn-primary d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex d-xxl-flex justify-content-center mt-auto justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center justify-content-xxl-center align-items-xxl-end" data-bss-hover-animate="jello" type="button" href="#awards" style="margin: 20px auto;margin-bottom: 20px;margin-top: 10px;background: rgba(13,110,253,0);color: rgb(0,0,0);font-weight: bold;border-radius: 3px;border-width: 3px;border-color: rgb(0,0,0);border-bottom-color: var(--bs-red);">Learn more</a>
+                        <a class="btn btn-primary d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex d-xxl-flex justify-content-center mt-auto justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center justify-content-xxl-center align-items-xxl-end" data-bss-hover-animate="jello" type="button" href="#awards" style="margin: 20px auto;margin-bottom: 20px;margin-top: 10px;background: rgba(13,110,253,0);color: rgb(0,0,0);font-weight: bold;border-radius: 3px;border-width: 3px;border-color: rgb(0,0,0);border-bottom-color: var(--bs-red);">Перейти</a>
                     </div>
                 </div>
 
             </div>
         </div>
     </section>
-    <section style="margin-bottom: 20px;">
+    <section id = "about1" style="margin-bottom: 20px;">
         <div class="container py-4 py-xl-5">
             <div class="row gy-4 gy-md-0">
                 <div class="col-md-6">
@@ -45,9 +45,9 @@
             </div>
         </div>
     </section>
-    <section id = "">
+    <section >
         <section class="d-xxl-flex justify-content-xxl-center py-4 py-xl-5" style="margin-top:-50px;">
-            <div class="container">
+            <div class="container" >
                 <div class="row gx-2 gy-2 row-cols-1 row-cols-md-2 row-cols-xl-3 d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center" data-bss-baguettebox="">
                     <div class="col-xxl-3"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid d-xxl-flex justify-content-xxl-center align-items-xxl-center" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" style="width: 100%;"></a></div>
                     <div class="col-xxl-3"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid d-xxl-flex justify-content-xxl-center align-items-xxl-center" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" style="width: 100%;"></a></div>
@@ -61,7 +61,7 @@
             </div>
         </section>
     </section>
-    <section style="margin: 20px auto;">
+    <section id= "history" style="margin: 20px auto;">
         <h2 class="text-uppercase fw-bold" style="margin: 0px auto; width: 100%; text-align: center">История "РЦК"</h2>
         <div class="container py-4 py-xl-5">
             <div class="row">
@@ -99,7 +99,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id = "control">
         <div class="container py-4 py-xl-5">
             <div class="row gy-4 gy-md-0">
                 <div class="col-md-6">
@@ -248,7 +248,7 @@ export default {
     name: "AboutComponent",
     data(){
         return{
-            
+
         }
     },
     mounted() {

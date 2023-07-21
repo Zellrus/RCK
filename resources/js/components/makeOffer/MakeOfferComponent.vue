@@ -38,14 +38,14 @@
               <label for="exampleFormControlTextarea1">Оставьте сообщение (по желанию)</label>
               <textarea class="form-control" id="exampleFormControlTextarea1" v-model="message"  rows="3"></textarea>
           </div>
-<button @click="this.sendForm()" class="btn btn-info">Отправить</button>
+<button @click="this.sendForm()" class="btn btn-info">Отправить</button> <p class="fs-1" v-show="is_sand">Отправлено!</p>
 <!-- {{this.products}}-->
 
 <!--      {{this.products.filter(el=> el.category_id == 6)}}-->
 <!--      {{this.flagCategory}}-->
 
 <!--      {{this.newChoise}}-->
-      {{this.choiseProduct}}
+<!--      {{this.choiseProduct}}-->
   </div>
 </template>
 
@@ -66,7 +66,7 @@ export default {
             products:[],
             categories: [],
             flagCategory: null,
-
+            is_sand: false,
         }
     },
     methods:{
@@ -77,8 +77,10 @@ export default {
         number: this.number,
         message: this.message,
         id_product: this.choiseProduct,
+
     }).then(res=>{
             console.log(res.data);
+            this.is_sand = true
         }
     ).catch(error => {
         console.log("ERRRR:: ",error.response.data);
